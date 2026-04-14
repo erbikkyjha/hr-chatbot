@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "HR AI Assistant",
   description: "Smart HR Chatbot powered by AI",
+  icons: {
+    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%237c3aed'/><text x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-size='18'>🤖</text></svg>",
+  },
 };
 
 export default function RootLayout({
